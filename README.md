@@ -13,4 +13,4 @@ Then, I evaluate the model with different passages, with increasing difficulty l
 
 Finally, as a benchmark I used the implemented pretrained and fine-tuned model from ***Hugging Face***, named as [bert-large-uncased-whole-word-masking-finetuned-squad](https://huggingface.co/bert-large-uncased-whole-word-masking-finetuned-squad). You will see, that my model performance is pretty decent.
 
-***Note:*** My solution is implemented in PyTorch and the report is well documented. For running them, I used the Google Colab with its GPU.
+***Note:*** My solution is implemented in PyTorch and the report is well documented. For running the notebooks, I used the Google Colab with its GPU.
