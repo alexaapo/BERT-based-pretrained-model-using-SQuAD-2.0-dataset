@@ -7,10 +7,10 @@ Here I built a BERT-based model which returns an answer, given a user question a
 2. Evaluate_Fine_Tuned_Bert
 3. Evaluate_Existed_Fine_Tuned_Bert
 
-I started with the BERT-base pretrained model ***bert-base-uncased*** and fine-tune it to have a question answering task, implemented by myself.
+I started with the BERT-base pretrained model [bert-base-uncased](https://huggingface.co/bert-base-uncased) and fine-tune it to have a question answering task, implemented by myself.
 
 Then, I evaluate the model with different passages, with increasing difficulty level. 
 
-Finally, as a benchmark I used the implemented pretrained and fine-tuned model from ***Hugging Face***, named as ***bert-large-uncased-whole-word-masking-finetuned-squad***. You will see, that my model performance is pretty decent.
+Finally, as a benchmark I used the implemented pretrained and fine-tuned model from ***Hugging Face***, named as [bert-large-uncased-whole-word-masking-finetuned-squad](https://huggingface.co/bert-large-uncased-whole-word-masking-finetuned-squad). You will see, that my model performance is pretty decent.
 
 ***Note:*** My solution is implemented in PyTorch and the report is well documented.
